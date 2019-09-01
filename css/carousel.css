@@ -25,6 +25,7 @@ properly in the 3D space. */
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  z-index:-1;
 }
 
 /* By default we're hiding items (except the initial one) until the JS initiates.

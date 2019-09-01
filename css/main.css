@@ -45,6 +45,7 @@ li.dropdown {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 200px;
+  z-index: 1000;
 }
 .dropdown-content a {
   color: black;
@@ -75,7 +76,7 @@ li.dropdown {
   font-size:32px;
 }
 .partners-description {
-  font-size: 2vw;
+  font-size:2vw;
 }
 
 .partners-description span {
